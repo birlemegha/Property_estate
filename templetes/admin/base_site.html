@@ -1,0 +1,11 @@
+{% extends 'admin/base.html' %}
+
+{% load static %}
+{% block branding %}
+<h1>
+  <img src="{% static 'img/logo.png' %}" alt="BT Real State" height="50" width="80" class="">Admin Area
+</h1>
+{%endblock %}
+{% block  extrastyle %}
+  <link href="{% static 'css/admin.css' %}" rel="stylesheet">
+{% endblock%}
